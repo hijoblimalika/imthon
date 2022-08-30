@@ -1,0 +1,90 @@
+@media screen and (max-width:700px){
+    .img{
+        background: url('./i.webp') no-repeat center/cover;
+    }
+    .fa-bars{
+        display: block;
+    }
+    .icons i{
+        font-size: 16px;
+
+    }
+    .icons p{
+        font-size: 10px;
+    }
+    .input input{
+        width: 92%;
+    }
+    .input button{
+        width: 8%;
+        font-size: 15px;
+    }
+    .nav_top{
+        display: none;
+    }
+    .limit_img{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+    .banner_2 img{
+        width: 900px;
+        height: 70vh;
+    }
+    .banner img{
+        width: 900px;
+        height: 70vh;
+        margin-left: 200px;
+    }
+
+}
+@media  screen and (max-width:500px) {
+    .icons p{
+        display: none;
+    }
+  
+    .icons i{
+        font-size: 40px;
+        margin-left: 0;
+    }
+   
+    .banner img{
+        width: 1500px;
+        margin-left: 300px;
+    }
+  
+    .limit_img{
+        margin: 0;
+        width: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 10%;
+    }
+    .input input{
+        width:500px;
+    }
+   
+}
+@media  screen and (max-width:400px){
+    .input{
+    }
+    .icons i{
+        font-size: 29px;
+    }
+}
+@media  screen and (max-width:300px)  {
+   
+    .icons i{
+        margin-left: 0;
+        font-size: 20px;
+    }
+    .limite h1{
+        width: 300px;
+        font-size: 25px;
+        margin-left: 230px;
+    }
+    .banner img{
+        width: 1600px;
+        margin-left: 400px;
+    }
+}
